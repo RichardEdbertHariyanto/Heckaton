@@ -1,0 +1,120 @@
+body {
+    width: 80%;
+    margin: auto;
+    font-family: arial, verdana, Sans-serif;
+    font-weight: normal;
+    line-height: 1.5;
+    color:#212529;
+    display: grid;
+}
+.flex-container {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #343a40;
+    display:flex;
+    justify-content:flex-end;
+    font-family: arial, verdana, Sans-serif;
+    font-weight: normal;
+    line-height: 1.5;
+    }
+.flex-container a {
+    text-decoration: none;
+    font-size:1.2em;
+    color: rgb(189, 189, 189);
+    display: block;
+    padding: 14px 20px;
+    }
+.flex-container a:hover{
+    background-color: yellowgreen;
+    color: rgb(174, 25, 25);
+    }
+section {
+    padding: 10px;
+    background-color: #aeaeae;
+    border: 2px solid #6d7988;
+    }
+.current_page {
+    font-family:verdana,arial,sans-serif;
+ font-weight:bold;
+ font-size:20px;
+ }
+#heading{
+    padding:25px;
+    margin:0px;
+    text-align: center;
+    background-color:#747474;
+    color: whitesmoke;    
+    font-family: arial, verdana, Sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+}
+.container1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px 1fr;
+    grid-gap: 20px;
+    grid-template-areas: 
+        "content1 content2";
+}
+.content1 {
+    grid-area: content1;
+    font-family: arial, verdana, Sans-serif;
+    display: inline;
+    margin-top: 5%;
+}
+.content2 {
+    grid-area: content2;
+    font-family: arial, verdana, Sans-serif;
+    display:inline;
+    margin-top: 5%;
+}
+h5{
+    margin-top: 10%;
+
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-size: 1.7rem;
+    font-family: arial, verdana, Sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+}
+h3{
+    text-align: left;
+    font-size: 1.2rem;
+    margin: auto;
+    font-family: arial, verdana, Sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+}
+main{
+    margin-bottom: 20px;
+}
+button[type="signin"] {
+    margin-left: 92%;
+    font-size: 18px;
+}
+
+footer{
+    background-color: #343a40;
+    padding: 3px;
+    color:white;
+    text-align: center;
+    display: inline;
+    font-family: arial, verdana, Sans-serif;
+    font-weight: normal;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+.border{
+    border-style: solid;
+    border-color: greenyellow;
+    padding: 0 10px 10px 10px;
+}
